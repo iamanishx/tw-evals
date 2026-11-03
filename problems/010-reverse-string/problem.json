@@ -1,0 +1,45 @@
+{
+  "id": "010",
+  "slug": "reverse-string",
+  "title": "Reverse a string",
+  "topic": "strings",
+  "difficulty": "easy",
+  "language": "python",
+  "function": {
+    "name": "reverse_string",
+    "signature": "def reverse_string(s: str) -> str:"
+  },
+  "statement": "Return the string s reversed.",
+  "tests": [
+    {
+      "args": [
+        "hello"
+      ],
+      "expected": "olleh"
+    },
+    {
+      "args": [
+        ""
+      ],
+      "expected": ""
+    },
+    {
+      "args": [
+        "a"
+      ],
+      "expected": "a"
+    },
+    {
+      "args": [
+        "ab cd"
+      ],
+      "expected": "dc ba"
+    },
+    {
+      "args": [
+        "12321"
+      ],
+      "expected": "12321"
+    }
+  ]
+}

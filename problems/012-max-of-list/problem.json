@@ -1,0 +1,63 @@
+{
+  "id": "012",
+  "slug": "max-of-list",
+  "title": "Maximum of a list",
+  "topic": "lists",
+  "difficulty": "easy",
+  "language": "python",
+  "function": {
+    "name": "max_of_list",
+    "signature": "def max_of_list(xs: list) -> float:"
+  },
+  "statement": "Return the largest element of the non-empty list of numbers xs, without using the built-in max().",
+  "tests": [
+    {
+      "args": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        [
+          -5,
+          -2,
+          -9
+        ]
+      ],
+      "expected": -2
+    },
+    {
+      "args": [
+        [
+          42
+        ]
+      ],
+      "expected": 42
+    },
+    {
+      "args": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "expected": 0
+    },
+    {
+      "args": [
+        [
+          3.5,
+          2.1,
+          9.9
+        ]
+      ],
+      "expected": 9.9
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "024",
+  "slug": "bubble-sort",
+  "title": "Bubble sort",
+  "topic": "lists",
+  "difficulty": "medium",
+  "language": "python",
+  "function": {
+    "name": "bubble_sort",
+    "signature": "def bubble_sort(xs: list) -> list:"
+  },
+  "statement": "Sort the list of numbers xs in ascending order using the bubble sort algorithm and return the sorted list. Do not use sorted() or list.sort().",
+  "tests": [
+    {
+      "args": [
+        [
+          5,
+          1,
+          4,
+          2,
+          8
+        ]
+      ],
+      "expected": [
+        1,
+        2,
+        4,
+        5,
+        8
+      ]
+    },
+    {
+      "args": [
+        []
+      ],
+      "expected": []
+    },
+    {
+      "args": [
+        [
+          1
+        ]
+      ],
+      "expected": [
+        1
+      ]
+    },
+    {
+      "args": [
+        [
+          3,
+          2,
+          1
+        ]
+      ],
+      "expected": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "args": [
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "expected": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "args": [
+        [
+          -1,
+          -5,
+          3
+        ]
+      ],
+      "expected": [
+        -5,
+        -1,
+        3
+      ]
+    }
+  ]
+}

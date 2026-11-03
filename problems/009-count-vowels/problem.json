@@ -1,0 +1,51 @@
+{
+  "id": "009",
+  "slug": "count-vowels",
+  "title": "Count vowels",
+  "topic": "strings",
+  "difficulty": "easy",
+  "language": "python",
+  "function": {
+    "name": "count_vowels",
+    "signature": "def count_vowels(s: str) -> int:"
+  },
+  "statement": "Return the number of vowels (a, e, i, o, u, either case) in the string s.",
+  "tests": [
+    {
+      "args": [
+        "hello"
+      ],
+      "expected": 2
+    },
+    {
+      "args": [
+        "xyz"
+      ],
+      "expected": 0
+    },
+    {
+      "args": [
+        "AEIOU"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "Programming"
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        ""
+      ],
+      "expected": 0
+    },
+    {
+      "args": [
+        "bcdfg"
+      ],
+      "expected": 0
+    }
+  ]
+}

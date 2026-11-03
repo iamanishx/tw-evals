@@ -1,0 +1,65 @@
+{
+  "id": "013",
+  "slug": "second-largest",
+  "title": "Second largest element",
+  "topic": "lists",
+  "difficulty": "medium",
+  "language": "python",
+  "function": {
+    "name": "second_largest",
+    "signature": "def second_largest(xs: list) -> int:"
+  },
+  "statement": "Return the second largest DISTINCT value in the list of numbers xs. The list always contains at least two distinct values.",
+  "tests": [
+    {
+      "args": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "expected": 2
+    },
+    {
+      "args": [
+        [
+          10,
+          5,
+          8
+        ]
+      ],
+      "expected": 8
+    },
+    {
+      "args": [
+        [
+          5,
+          5,
+          4
+        ]
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        [
+          100,
+          99
+        ]
+      ],
+      "expected": 99
+    },
+    {
+      "args": [
+        [
+          7,
+          3,
+          7,
+          2
+        ]
+      ],
+      "expected": 3
+    }
+  ]
+}

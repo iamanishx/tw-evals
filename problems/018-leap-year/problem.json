@@ -1,0 +1,51 @@
+{
+  "id": "018",
+  "slug": "leap-year",
+  "title": "Leap year",
+  "topic": "basics",
+  "difficulty": "easy",
+  "language": "python",
+  "function": {
+    "name": "is_leap_year",
+    "signature": "def is_leap_year(year: int) -> bool:"
+  },
+  "statement": "Return True if year is a leap year in the Gregorian calendar: divisible by 4, except century years unless divisible by 400.",
+  "tests": [
+    {
+      "args": [
+        2000
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        1900
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        2024
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        2023
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        2100
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        2026
+      ],
+      "expected": false
+    }
+  ]
+}

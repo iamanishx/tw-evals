@@ -1,0 +1,115 @@
+{
+  "id": "027",
+  "slug": "matrix-addition",
+  "title": "Matrix addition",
+  "topic": "matrices",
+  "difficulty": "medium",
+  "language": "python",
+  "function": {
+    "name": "matrix_add",
+    "signature": "def matrix_add(a: list, b: list) -> list:"
+  },
+  "statement": "Given two matrices (lists of lists of numbers) with the same dimensions, return their element-wise sum.",
+  "tests": [
+    {
+      "args": [
+        [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          [
+            5,
+            6
+          ],
+          [
+            7,
+            8
+          ]
+        ]
+      ],
+      "expected": [
+        [
+          6,
+          8
+        ],
+        [
+          10,
+          12
+        ]
+      ]
+    },
+    {
+      "args": [
+        [
+          [
+            0
+          ]
+        ],
+        [
+          [
+            0
+          ]
+        ]
+      ],
+      "expected": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "args": [
+        [
+          [
+            -1,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            -2
+          ]
+        ]
+      ],
+      "expected": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "args": [
+        [
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        [
+          [
+            4,
+            5,
+            6
+          ]
+        ]
+      ],
+      "expected": [
+        [
+          5,
+          7,
+          9
+        ]
+      ]
+    }
+  ]
+}

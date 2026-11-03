@@ -1,0 +1,83 @@
+{
+  "id": "028",
+  "slug": "transpose",
+  "title": "Matrix transpose",
+  "topic": "matrices",
+  "difficulty": "medium",
+  "language": "python",
+  "function": {
+    "name": "transpose",
+    "signature": "def transpose(m: list) -> list:"
+  },
+  "statement": "Return the transpose of the matrix m (a list of lists of numbers).",
+  "tests": [
+    {
+      "args": [
+        [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            4,
+            5,
+            6
+          ]
+        ]
+      ],
+      "expected": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "args": [
+        [
+          [
+            1
+          ]
+        ]
+      ],
+      "expected": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "args": [
+        [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      ],
+      "expected": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    }
+  ]
+}

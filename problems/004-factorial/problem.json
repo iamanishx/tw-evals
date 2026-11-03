@@ -1,0 +1,51 @@
+{
+  "id": "004",
+  "slug": "factorial",
+  "title": "Factorial",
+  "topic": "basics",
+  "difficulty": "easy",
+  "language": "python",
+  "function": {
+    "name": "factorial",
+    "signature": "def factorial(n: int) -> int:"
+  },
+  "statement": "Given a non-negative integer n, return n! (0! = 1).",
+  "tests": [
+    {
+      "args": [
+        0
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        1
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        5
+      ],
+      "expected": 120
+    },
+    {
+      "args": [
+        10
+      ],
+      "expected": 3628800
+    },
+    {
+      "args": [
+        3
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        7
+      ],
+      "expected": 5040
+    }
+  ]
+}

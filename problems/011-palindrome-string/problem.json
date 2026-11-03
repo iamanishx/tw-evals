@@ -1,0 +1,51 @@
+{
+  "id": "011",
+  "slug": "palindrome-string",
+  "title": "Palindrome string",
+  "topic": "strings",
+  "difficulty": "easy",
+  "language": "python",
+  "function": {
+    "name": "is_palindrome_string",
+    "signature": "def is_palindrome_string(s: str) -> bool:"
+  },
+  "statement": "Return True if s reads the same forwards and backwards (case-sensitive, exactly as given), else False.",
+  "tests": [
+    {
+      "args": [
+        "madam"
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        "racecar"
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        "hello"
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        ""
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        "a"
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        "ab"
+      ],
+      "expected": false
+    }
+  ]
+}
