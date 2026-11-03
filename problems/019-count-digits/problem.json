@@ -1,0 +1,45 @@
+{
+  "id": "019",
+  "slug": "count-digits",
+  "title": "Count digits",
+  "topic": "basics",
+  "difficulty": "easy",
+  "language": "python",
+  "function": {
+    "name": "count_digits",
+    "signature": "def count_digits(n: int) -> int:"
+  },
+  "statement": "Return the number of decimal digits of a non-negative integer n. count_digits(0) = 1.",
+  "tests": [
+    {
+      "args": [
+        12345
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        0
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        9
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        1000000
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        987654321
+      ],
+      "expected": 9
+    }
+  ]
+}

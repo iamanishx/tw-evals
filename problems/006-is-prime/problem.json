@@ -1,0 +1,57 @@
+{
+  "id": "006",
+  "slug": "is-prime",
+  "title": "Primality test",
+  "topic": "loops",
+  "difficulty": "easy",
+  "language": "python",
+  "function": {
+    "name": "is_prime",
+    "signature": "def is_prime(n: int) -> bool:"
+  },
+  "statement": "Return True if n is a prime number, else False. Numbers below 2 are not prime.",
+  "tests": [
+    {
+      "args": [
+        2
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        1
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        17
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        18
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        97
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        91
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        0
+      ],
+      "expected": false
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "002",
+  "slug": "reverse-number",
+  "title": "Reverse a number",
+  "topic": "loops",
+  "difficulty": "easy",
+  "language": "python",
+  "function": {
+    "name": "reverse_number",
+    "signature": "def reverse_number(n: int) -> int:"
+  },
+  "statement": "Given a non-negative integer n, return the integer formed by reversing its decimal digits. Leading zeros after reversal are dropped (e.g. 1000 becomes 1).",
+  "tests": [
+    {
+      "args": [
+        123
+      ],
+      "expected": 321
+    },
+    {
+      "args": [
+        1000
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        0
+      ],
+      "expected": 0
+    },
+    {
+      "args": [
+        7
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        120045
+      ],
+      "expected": 540021
+    },
+    {
+      "args": [
+        987654321
+      ],
+      "expected": 123456789
+    }
+  ]
+}

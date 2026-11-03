@@ -1,0 +1,57 @@
+{
+  "id": "030",
+  "slug": "power",
+  "title": "Power (repeated multiplication)",
+  "topic": "recursion",
+  "difficulty": "medium",
+  "language": "python",
+  "function": {
+    "name": "power",
+    "signature": "def power(x: float, n: int) -> float:"
+  },
+  "statement": "Return x raised to the non-negative integer power n, without using ** or pow().",
+  "tests": [
+    {
+      "args": [
+        2,
+        10
+      ],
+      "expected": 1024
+    },
+    {
+      "args": [
+        5,
+        0
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        3,
+        3
+      ],
+      "expected": 27
+    },
+    {
+      "args": [
+        2,
+        1
+      ],
+      "expected": 2
+    },
+    {
+      "args": [
+        7,
+        2
+      ],
+      "expected": 49
+    },
+    {
+      "args": [
+        1.5,
+        2
+      ],
+      "expected": 2.25
+    }
+  ]
+}

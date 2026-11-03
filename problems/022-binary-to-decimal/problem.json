@@ -1,0 +1,45 @@
+{
+  "id": "022",
+  "slug": "binary-to-decimal",
+  "title": "Binary to decimal",
+  "topic": "strings",
+  "difficulty": "medium",
+  "language": "python",
+  "function": {
+    "name": "binary_to_decimal",
+    "signature": "def binary_to_decimal(s: str) -> int:"
+  },
+  "statement": "Convert a binary string s (only '0' and '1') to its decimal integer value, without using int(s, 2).",
+  "tests": [
+    {
+      "args": [
+        "1010"
+      ],
+      "expected": 10
+    },
+    {
+      "args": [
+        "0"
+      ],
+      "expected": 0
+    },
+    {
+      "args": [
+        "1111"
+      ],
+      "expected": 15
+    },
+    {
+      "args": [
+        "100000"
+      ],
+      "expected": 32
+    },
+    {
+      "args": [
+        "1101101"
+      ],
+      "expected": 109
+    }
+  ]
+}

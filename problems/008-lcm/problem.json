@@ -1,0 +1,57 @@
+{
+  "id": "008",
+  "slug": "lcm",
+  "title": "Least common multiple",
+  "topic": "loops",
+  "difficulty": "easy",
+  "language": "python",
+  "function": {
+    "name": "lcm",
+    "signature": "def lcm(a: int, b: int) -> int:"
+  },
+  "statement": "Return the least common multiple of non-negative integers a and b. If either is 0, return 0.",
+  "tests": [
+    {
+      "args": [
+        4,
+        6
+      ],
+      "expected": 12
+    },
+    {
+      "args": [
+        7,
+        13
+      ],
+      "expected": 91
+    },
+    {
+      "args": [
+        0,
+        5
+      ],
+      "expected": 0
+    },
+    {
+      "args": [
+        12,
+        18
+      ],
+      "expected": 36
+    },
+    {
+      "args": [
+        5,
+        5
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        100,
+        75
+      ],
+      "expected": 300
+    }
+  ]
+}

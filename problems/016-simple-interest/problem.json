@@ -1,0 +1,55 @@
+{
+  "id": "016",
+  "slug": "simple-interest",
+  "title": "Simple interest",
+  "topic": "basics",
+  "difficulty": "easy",
+  "language": "python",
+  "function": {
+    "name": "simple_interest",
+    "signature": "def simple_interest(p: float, r: float, t: float) -> float:"
+  },
+  "statement": "Return the simple interest on principal p at rate r percent per year for t years: SI = p * r * t / 100.",
+  "tests": [
+    {
+      "args": [
+        1000,
+        5,
+        2
+      ],
+      "expected": 100.0
+    },
+    {
+      "args": [
+        1500,
+        4.5,
+        3
+      ],
+      "expected": 202.5
+    },
+    {
+      "args": [
+        0,
+        10,
+        5
+      ],
+      "expected": 0.0
+    },
+    {
+      "args": [
+        2500,
+        6,
+        1
+      ],
+      "expected": 150.0
+    },
+    {
+      "args": [
+        10000,
+        7.25,
+        2
+      ],
+      "expected": 1450.0
+    }
+  ]
+}

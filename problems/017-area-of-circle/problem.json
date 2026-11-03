@@ -1,0 +1,39 @@
+{
+  "id": "017",
+  "slug": "area-of-circle",
+  "title": "Area of a circle",
+  "topic": "basics",
+  "difficulty": "easy",
+  "language": "python",
+  "function": {
+    "name": "area_of_circle",
+    "signature": "def area_of_circle(r: float) -> float:"
+  },
+  "statement": "Return the area of a circle of radius r, using pi = 3.141592653589793.",
+  "tests": [
+    {
+      "args": [
+        1
+      ],
+      "expected": 3.141592653589793
+    },
+    {
+      "args": [
+        0
+      ],
+      "expected": 0.0
+    },
+    {
+      "args": [
+        2.5
+      ],
+      "expected": 19.634954084936208
+    },
+    {
+      "args": [
+        10
+      ],
+      "expected": 314.1592653589793
+    }
+  ]
+}

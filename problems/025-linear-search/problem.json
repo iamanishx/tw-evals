@@ -1,0 +1,65 @@
+{
+  "id": "025",
+  "slug": "linear-search",
+  "title": "Linear search",
+  "topic": "lists",
+  "difficulty": "easy",
+  "language": "python",
+  "function": {
+    "name": "linear_search",
+    "signature": "def linear_search(xs: list, target: int) -> int:"
+  },
+  "statement": "Return the index of the first occurrence of target in the list xs, or -1 if it is not present.",
+  "tests": [
+    {
+      "args": [
+        [
+          1,
+          2,
+          3
+        ],
+        2
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        [
+          5,
+          7,
+          9
+        ],
+        4
+      ],
+      "expected": -1
+    },
+    {
+      "args": [
+        [],
+        1
+      ],
+      "expected": -1
+    },
+    {
+      "args": [
+        [
+          9
+        ],
+        9
+      ],
+      "expected": 0
+    },
+    {
+      "args": [
+        [
+          1,
+          3,
+          5,
+          7
+        ],
+        7
+      ],
+      "expected": 3
+    }
+  ]
+}

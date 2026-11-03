@@ -1,0 +1,76 @@
+{
+  "id": "021",
+  "slug": "prime-factors",
+  "title": "Prime factorization",
+  "topic": "loops",
+  "difficulty": "medium",
+  "language": "python",
+  "function": {
+    "name": "prime_factors",
+    "signature": "def prime_factors(n: int) -> list:"
+  },
+  "statement": "Return the prime factors of an integer n >= 2 as a sorted list with repetition (e.g. 12 -> [2, 2, 3]).",
+  "tests": [
+    {
+      "args": [
+        12
+      ],
+      "expected": [
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "args": [
+        13
+      ],
+      "expected": [
+        13
+      ]
+    },
+    {
+      "args": [
+        100
+      ],
+      "expected": [
+        2,
+        2,
+        5,
+        5
+      ]
+    },
+    {
+      "args": [
+        84
+      ],
+      "expected": [
+        2,
+        2,
+        3,
+        7
+      ]
+    },
+    {
+      "args": [
+        2
+      ],
+      "expected": [
+        2
+      ]
+    },
+    {
+      "args": [
+        360
+      ],
+      "expected": [
+        2,
+        2,
+        2,
+        3,
+        3,
+        5
+      ]
+    }
+  ]
+}

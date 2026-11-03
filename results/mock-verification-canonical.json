@@ -1,0 +1,603 @@
+{
+  "run_id": "mock-verification-canonical",
+  "started_at": "20261103T152556Z",
+  "config": {
+    "base_url": "http://127.0.0.1:8090/v1",
+    "model": [
+      "mock-canonical"
+    ],
+    "samples": 1,
+    "temperature": 0.2,
+    "max_tokens": 512,
+    "request_timeout": 180,
+    "test_timeout": 10,
+    "measure_vram": false
+  },
+  "n_problems": 30,
+  "models": {
+    "mock-canonical": {
+      "summary": {
+        "pass_at_1": 1.0,
+        "problems_fully_passed": 30,
+        "records": 30,
+        "per_test_pass_rate": 1.0,
+        "mean_latency_s": 0.051,
+        "p50_latency_s": 0.051,
+        "mean_tokens_per_s": 624.68,
+        "peak_vram_mb": null
+      },
+      "records": [
+        {
+          "id": "001",
+          "slug": "sum-of-digits",
+          "topic": "basics",
+          "difficulty": "easy",
+          "sample": 0,
+          "latency_s": 0.052,
+          "peak_vram_mb": null,
+          "prompt_tokens": 96,
+          "completion_tokens": 31,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 596.74,
+          "passed": 6,
+          "total": 6,
+          "all_passed": true
+        },
+        {
+          "id": "002",
+          "slug": "reverse-number",
+          "topic": "loops",
+          "difficulty": "easy",
+          "sample": 0,
+          "latency_s": 0.051,
+          "peak_vram_mb": null,
+          "prompt_tokens": 117,
+          "completion_tokens": 33,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 649.04,
+          "passed": 6,
+          "total": 6,
+          "all_passed": true
+        },
+        {
+          "id": "003",
+          "slug": "palindrome-number",
+          "topic": "loops",
+          "difficulty": "easy",
+          "sample": 0,
+          "latency_s": 0.051,
+          "peak_vram_mb": null,
+          "prompt_tokens": 112,
+          "completion_tokens": 23,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 452.36,
+          "passed": 6,
+          "total": 6,
+          "all_passed": true
+        },
+        {
+          "id": "004",
+          "slug": "factorial",
+          "topic": "basics",
+          "difficulty": "easy",
+          "sample": 0,
+          "latency_s": 0.051,
+          "peak_vram_mb": null,
+          "prompt_tokens": 90,
+          "completion_tokens": 28,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 550.96,
+          "passed": 6,
+          "total": 6,
+          "all_passed": true
+        },
+        {
+          "id": "005",
+          "slug": "fibonacci",
+          "topic": "loops",
+          "difficulty": "easy",
+          "sample": 0,
+          "latency_s": 0.051,
+          "peak_vram_mb": null,
+          "prompt_tokens": 92,
+          "completion_tokens": 28,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 548.16,
+          "passed": 7,
+          "total": 7,
+          "all_passed": true
+        },
+        {
+          "id": "006",
+          "slug": "is-prime",
+          "topic": "loops",
+          "difficulty": "easy",
+          "sample": 0,
+          "latency_s": 0.051,
+          "peak_vram_mb": null,
+          "prompt_tokens": 97,
+          "completion_tokens": 47,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 922.01,
+          "passed": 7,
+          "total": 7,
+          "all_passed": true
+        },
+        {
+          "id": "007",
+          "slug": "gcd",
+          "topic": "loops",
+          "difficulty": "easy",
+          "sample": 0,
+          "latency_s": 0.051,
+          "peak_vram_mb": null,
+          "prompt_tokens": 103,
+          "completion_tokens": 24,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 472.29,
+          "passed": 6,
+          "total": 6,
+          "all_passed": true
+        },
+        {
+          "id": "008",
+          "slug": "lcm",
+          "topic": "loops",
+          "difficulty": "easy",
+          "sample": 0,
+          "latency_s": 0.051,
+          "peak_vram_mb": null,
+          "prompt_tokens": 101,
+          "completion_tokens": 40,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 787.71,
+          "passed": 6,
+          "total": 6,
+          "all_passed": true
+        },
+        {
+          "id": "009",
+          "slug": "count-vowels",
+          "topic": "strings",
+          "difficulty": "easy",
+          "sample": 0,
+          "latency_s": 0.051,
+          "peak_vram_mb": null,
+          "prompt_tokens": 97,
+          "completion_tokens": 24,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 472.85,
+          "passed": 6,
+          "total": 6,
+          "all_passed": true
+        },
+        {
+          "id": "010",
+          "slug": "reverse-string",
+          "topic": "strings",
+          "difficulty": "easy",
+          "sample": 0,
+          "latency_s": 0.051,
+          "peak_vram_mb": null,
+          "prompt_tokens": 86,
+          "completion_tokens": 17,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 334.3,
+          "passed": 5,
+          "total": 5,
+          "all_passed": true
+        },
+        {
+          "id": "011",
+          "slug": "palindrome-string",
+          "topic": "strings",
+          "difficulty": "easy",
+          "sample": 0,
+          "latency_s": 0.051,
+          "peak_vram_mb": null,
+          "prompt_tokens": 106,
+          "completion_tokens": 20,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 392.52,
+          "passed": 6,
+          "total": 6,
+          "all_passed": true
+        },
+        {
+          "id": "012",
+          "slug": "max-of-list",
+          "topic": "lists",
+          "difficulty": "easy",
+          "sample": 0,
+          "latency_s": 0.051,
+          "peak_vram_mb": null,
+          "prompt_tokens": 103,
+          "completion_tokens": 33,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 646.82,
+          "passed": 5,
+          "total": 5,
+          "all_passed": true
+        },
+        {
+          "id": "013",
+          "slug": "second-largest",
+          "topic": "lists",
+          "difficulty": "medium",
+          "sample": 0,
+          "latency_s": 0.051,
+          "peak_vram_mb": null,
+          "prompt_tokens": 110,
+          "completion_tokens": 20,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 393.23,
+          "passed": 5,
+          "total": 5,
+          "all_passed": true
+        },
+        {
+          "id": "014",
+          "slug": "sum-even",
+          "topic": "lists",
+          "difficulty": "easy",
+          "sample": 0,
+          "latency_s": 0.051,
+          "peak_vram_mb": null,
+          "prompt_tokens": 104,
+          "completion_tokens": 22,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 432.37,
+          "passed": 5,
+          "total": 5,
+          "all_passed": true
+        },
+        {
+          "id": "015",
+          "slug": "celsius-to-fahrenheit",
+          "topic": "basics",
+          "difficulty": "easy",
+          "sample": 0,
+          "latency_s": 0.051,
+          "peak_vram_mb": null,
+          "prompt_tokens": 98,
+          "completion_tokens": 21,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 411.94,
+          "passed": 5,
+          "total": 5,
+          "all_passed": true
+        },
+        {
+          "id": "016",
+          "slug": "simple-interest",
+          "topic": "basics",
+          "difficulty": "easy",
+          "sample": 0,
+          "latency_s": 0.051,
+          "peak_vram_mb": null,
+          "prompt_tokens": 111,
+          "completion_tokens": 25,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 492.83,
+          "passed": 5,
+          "total": 5,
+          "all_passed": true
+        },
+        {
+          "id": "017",
+          "slug": "area-of-circle",
+          "topic": "basics",
+          "difficulty": "easy",
+          "sample": 0,
+          "latency_s": 0.051,
+          "peak_vram_mb": null,
+          "prompt_tokens": 97,
+          "completion_tokens": 22,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 433.74,
+          "passed": 4,
+          "total": 4,
+          "all_passed": true
+        },
+        {
+          "id": "018",
+          "slug": "leap-year",
+          "topic": "basics",
+          "difficulty": "easy",
+          "sample": 0,
+          "latency_s": 0.051,
+          "peak_vram_mb": null,
+          "prompt_tokens": 110,
+          "completion_tokens": 29,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 569.88,
+          "passed": 6,
+          "total": 6,
+          "all_passed": true
+        },
+        {
+          "id": "019",
+          "slug": "count-digits",
+          "topic": "basics",
+          "difficulty": "easy",
+          "sample": 0,
+          "latency_s": 0.051,
+          "peak_vram_mb": null,
+          "prompt_tokens": 100,
+          "completion_tokens": 37,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 727.77,
+          "passed": 5,
+          "total": 5,
+          "all_passed": true
+        },
+        {
+          "id": "020",
+          "slug": "armstrong-number",
+          "topic": "loops",
+          "difficulty": "medium",
+          "sample": 0,
+          "latency_s": 0.051,
+          "peak_vram_mb": null,
+          "prompt_tokens": 111,
+          "completion_tokens": 30,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 589.97,
+          "passed": 7,
+          "total": 7,
+          "all_passed": true
+        },
+        {
+          "id": "021",
+          "slug": "prime-factors",
+          "topic": "loops",
+          "difficulty": "medium",
+          "sample": 0,
+          "latency_s": 0.051,
+          "peak_vram_mb": null,
+          "prompt_tokens": 104,
+          "completion_tokens": 56,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 1098.47,
+          "passed": 6,
+          "total": 6,
+          "all_passed": true
+        },
+        {
+          "id": "022",
+          "slug": "binary-to-decimal",
+          "topic": "strings",
+          "difficulty": "medium",
+          "sample": 0,
+          "latency_s": 0.051,
+          "peak_vram_mb": null,
+          "prompt_tokens": 104,
+          "completion_tokens": 33,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 647.25,
+          "passed": 5,
+          "total": 5,
+          "all_passed": true
+        },
+        {
+          "id": "023",
+          "slug": "decimal-to-binary",
+          "topic": "strings",
+          "difficulty": "medium",
+          "sample": 0,
+          "latency_s": 0.051,
+          "peak_vram_mb": null,
+          "prompt_tokens": 111,
+          "completion_tokens": 42,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 824.81,
+          "passed": 6,
+          "total": 6,
+          "all_passed": true
+        },
+        {
+          "id": "024",
+          "slug": "bubble-sort",
+          "topic": "lists",
+          "difficulty": "medium",
+          "sample": 0,
+          "latency_s": 0.051,
+          "peak_vram_mb": null,
+          "prompt_tokens": 114,
+          "completion_tokens": 58,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 1139.09,
+          "passed": 6,
+          "total": 6,
+          "all_passed": true
+        },
+        {
+          "id": "025",
+          "slug": "linear-search",
+          "topic": "lists",
+          "difficulty": "easy",
+          "sample": 0,
+          "latency_s": 0.051,
+          "peak_vram_mb": null,
+          "prompt_tokens": 106,
+          "completion_tokens": 38,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 748.75,
+          "passed": 5,
+          "total": 5,
+          "all_passed": true
+        },
+        {
+          "id": "026",
+          "slug": "binary-search",
+          "topic": "lists",
+          "difficulty": "medium",
+          "sample": 0,
+          "latency_s": 0.051,
+          "peak_vram_mb": null,
+          "prompt_tokens": 112,
+          "completion_tokens": 75,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 1478.43,
+          "passed": 5,
+          "total": 5,
+          "all_passed": true
+        },
+        {
+          "id": "027",
+          "slug": "matrix-addition",
+          "topic": "matrices",
+          "difficulty": "medium",
+          "sample": 0,
+          "latency_s": 0.051,
+          "peak_vram_mb": null,
+          "prompt_tokens": 106,
+          "completion_tokens": 31,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 611.37,
+          "passed": 4,
+          "total": 4,
+          "all_passed": true
+        },
+        {
+          "id": "028",
+          "slug": "transpose",
+          "topic": "matrices",
+          "difficulty": "medium",
+          "sample": 0,
+          "latency_s": 0.051,
+          "peak_vram_mb": null,
+          "prompt_tokens": 95,
+          "completion_tokens": 22,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 433.43,
+          "passed": 3,
+          "total": 3,
+          "all_passed": true
+        },
+        {
+          "id": "029",
+          "slug": "word-count",
+          "topic": "strings",
+          "difficulty": "easy",
+          "sample": 0,
+          "latency_s": 0.051,
+          "peak_vram_mb": null,
+          "prompt_tokens": 103,
+          "completion_tokens": 17,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 332.58,
+          "passed": 5,
+          "total": 5,
+          "all_passed": true
+        },
+        {
+          "id": "030",
+          "slug": "power",
+          "topic": "recursion",
+          "difficulty": "medium",
+          "sample": 0,
+          "latency_s": 0.051,
+          "peak_vram_mb": null,
+          "prompt_tokens": 99,
+          "completion_tokens": 28,
+          "server_timings": {
+            "predicted_per_second": 42.0,
+            "mock": true
+          },
+          "tokens_per_s": 548.8,
+          "passed": 6,
+          "total": 6,
+          "all_passed": true
+        }
+      ]
+    }
+  }
+}

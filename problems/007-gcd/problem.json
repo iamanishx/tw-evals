@@ -1,0 +1,57 @@
+{
+  "id": "007",
+  "slug": "gcd",
+  "title": "Greatest common divisor",
+  "topic": "loops",
+  "difficulty": "easy",
+  "language": "python",
+  "function": {
+    "name": "gcd",
+    "signature": "def gcd(a: int, b: int) -> int:"
+  },
+  "statement": "Return the greatest common divisor of non-negative integers a and b (not both zero). gcd(0, x) = x.",
+  "tests": [
+    {
+      "args": [
+        12,
+        18
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        7,
+        13
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        0,
+        5
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        100,
+        75
+      ],
+      "expected": 25
+    },
+    {
+      "args": [
+        17,
+        17
+      ],
+      "expected": 17
+    },
+    {
+      "args": [
+        48,
+        36
+      ],
+      "expected": 12
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "015",
+  "slug": "celsius-to-fahrenheit",
+  "title": "Celsius to Fahrenheit",
+  "topic": "basics",
+  "difficulty": "easy",
+  "language": "python",
+  "function": {
+    "name": "celsius_to_fahrenheit",
+    "signature": "def celsius_to_fahrenheit(c: float) -> float:"
+  },
+  "statement": "Convert a temperature from Celsius to Fahrenheit: F = C * 9/5 + 32.",
+  "tests": [
+    {
+      "args": [
+        0
+      ],
+      "expected": 32.0
+    },
+    {
+      "args": [
+        100
+      ],
+      "expected": 212.0
+    },
+    {
+      "args": [
+        -40
+      ],
+      "expected": -40.0
+    },
+    {
+      "args": [
+        37
+      ],
+      "expected": 98.6
+    },
+    {
+      "args": [
+        25
+      ],
+      "expected": 77.0
+    }
+  ]
+}

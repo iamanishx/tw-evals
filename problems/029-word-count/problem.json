@@ -1,0 +1,45 @@
+{
+  "id": "029",
+  "slug": "word-count",
+  "title": "Word count",
+  "topic": "strings",
+  "difficulty": "easy",
+  "language": "python",
+  "function": {
+    "name": "word_count",
+    "signature": "def word_count(s: str) -> int:"
+  },
+  "statement": "Return the number of whitespace-separated words in s. Empty or all-whitespace strings have 0 words.",
+  "tests": [
+    {
+      "args": [
+        "hello world"
+      ],
+      "expected": 2
+    },
+    {
+      "args": [
+        "  a  b c "
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        ""
+      ],
+      "expected": 0
+    },
+    {
+      "args": [
+        "one"
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        "the quick brown fox"
+      ],
+      "expected": 4
+    }
+  ]
+}

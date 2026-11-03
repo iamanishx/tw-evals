@@ -1,0 +1,51 @@
+{
+  "id": "023",
+  "slug": "decimal-to-binary",
+  "title": "Decimal to binary",
+  "topic": "strings",
+  "difficulty": "medium",
+  "language": "python",
+  "function": {
+    "name": "decimal_to_binary",
+    "signature": "def decimal_to_binary(n: int) -> str:"
+  },
+  "statement": "Convert a non-negative integer n to its binary string without leading zeros, without using bin(). decimal_to_binary(0) = '0'.",
+  "tests": [
+    {
+      "args": [
+        10
+      ],
+      "expected": "1010"
+    },
+    {
+      "args": [
+        0
+      ],
+      "expected": "0"
+    },
+    {
+      "args": [
+        1
+      ],
+      "expected": "1"
+    },
+    {
+      "args": [
+        15
+      ],
+      "expected": "1111"
+    },
+    {
+      "args": [
+        109
+      ],
+      "expected": "1101101"
+    },
+    {
+      "args": [
+        255
+      ],
+      "expected": "11111111"
+    }
+  ]
+}
